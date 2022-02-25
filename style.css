@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: lightblue;
+}
+#container{
+    max-width: 1000px;
+    margin: auto;    
+}
+
+#base{
+
+}
+
+h1{
+    text-align: center;
+}
+
+#pierre, #feuille, #ciseaux{
+    margin: 1em;
+    width: 100px;
+    opacity: 0.5;
+    color: black;
+    font-size: 50px;   
+}
