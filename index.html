@@ -10,17 +10,30 @@
 </head>
 <body>
     <div id="container">  
-        <h1>Pierre Feuille Ciseaux</h1>
-        <div id="base"></div>
-            <div id="joueurScore">
-    
-            </div>
-            <div id="ordiScore">
-    
-            </div>
-            <button id="pierre"><i class='fa-solid fa-hand-back-fist'></i></button>
-            <button id="feuille"><i class='fa-solid fa-hand'></i></button>
-            <button id="ciseaux"><i class='fa-solid fa-hand-scissors'></i></button>
+        <div><h1>Pierre Feuille Ciseaux</h1></div>
+        <div id="score">
+            <div id="base"></div>
+            <div id="joueurScore"></div>
+            <div id="ordiScore"></div>
+            <div id="drawScore"></div>
+            
+        </div>
+        <div class="ordi"></div>
+        
+        
+        <div id="btn">
+            <button data-choice="Pierre" class="mains">
+                <img src="images/rocher-gnrØ0003a.png" alt="">
+            </button>
+            <button data-choice="Feuille" class="mains">
+                <img src="images/paper.png" alt="">
+            </button>
+            <button data-choice="Ciseaux" class="mains">
+                <img src="images/scissors.png" alt="">
+            </button>
+        </div>
+        <div id="restart">
+            <button>RESTART</button>
         </div>
     </div>
     <script src="script.js"></script>
